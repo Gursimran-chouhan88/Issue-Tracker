@@ -1,0 +1,25 @@
+
+.home-container{
+    background-color: #b1bbd6;
+    color: #332701;
+}
+.card-header{
+      background-color: #8f9196;
+}
+.home-container:hover{
+    background-color:#dcdee4 ;
+}
+.project-name{
+    margin: auto;
+    margin-left: 1%;
+}
+.front{
+    will-change: transform;
+    transition: transform 250ms;
+}
+.open-project-btn:hover .front{
+    transform: translateY(-6px);
+}
+.open-project-btn:active .front{
+    transform: translateY(-2px);
+}
