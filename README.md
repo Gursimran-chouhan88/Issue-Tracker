@@ -1,8 +1,5 @@
 # Issue-Tracker
-
-
 Issue tracker app where we create our project and describe the issue
-
 
 ## Installation
 
