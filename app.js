@@ -1,3 +1,4 @@
+require('dotenv').config();
 // require all required module and variable
 const express = require("express");
 const app = express();
@@ -40,9 +41,9 @@ app.use(customMware.setFlash);
 app.use("/", require("./routes"));
     console.log("My name is ",process.env.myname);
 // here setup the port
-app.listen(port, function (err) {
+app.listen(process.env.PORT, function (err) {
   if (err) {
     console.log("error in connecting to port", err);
   }
-  console.log("app is listen successfully on port: ", port);
+  console.log("app is listen successfully on port: ", process.env.PORT);
 });
