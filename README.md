@@ -61,6 +61,6 @@ To run tests, run the following command
     - layout.ejs
     - project_page.ejs
 - .gitignore
-- index.js
+- app.js
 - package-lock.json
 - package.json
