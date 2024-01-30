@@ -38,7 +38,7 @@ app.use(customMware.setFlash);
 
 // use the routes here
 app.use("/", require("./routes"));
-
+    console.log("My name is ",process.env.myname);
 // here setup the port
 app.listen(port, function (err) {
   if (err) {
